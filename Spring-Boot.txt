@@ -1,0 +1,9 @@
+Spring Boot reduces boilerplate and enables production-ready applications quickly.
+
+@SpringBootApplication - It does 3 in 1
+
+@SpringBootApplication is a combination of configuration, auto-configuration, and component scanning
+
+Multi-module Maven project helps manage multiple microservices efficiently.
+
+Maven manages dependencies and builds Java applications using POM configuration.

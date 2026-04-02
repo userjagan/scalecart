@@ -1,0 +1,2 @@
+I maintain clean Git repositories using proper structure and .gitignore
+
