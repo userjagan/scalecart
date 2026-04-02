@@ -1,2 +1,70 @@
 I maintain clean Git repositories using proper structure and .gitignore
 
+GIT COMMANDS AND PURPOSES
+
+git init
+Purpose: Initialize a new Git repository in your project folder
+What it does: Creates a hidden .git folder and starts version control
+When to use: First step when starting a new project
+
+git add .
+Purpose: Stage all changes for commit
+What it does: Moves all modified, new, and deleted files into staging area
+Meaning: Prepare files for saving snapshot
+
+git commit -m "message"
+Purpose: Save a snapshot of your project
+What it does: Stores staged changes in Git history with a message
+Meaning: Creates a version checkpoint
+
+git remote add origin <url>
+Purpose: Connect local project to GitHub repository
+What it does: Links your local repo with remote repo
+Meaning: Defines where code will be pushed online
+
+git branch -M main
+Purpose: Rename current branch to main
+What it does: Forces branch name to main
+Meaning: Standard branch name used in modern Git
+
+git push -u origin main
+Purpose: Push code to GitHub and set upstream tracking
+What it does: Uploads commits to remote repository and remembers connection
+Meaning: First time setup for pushing code
+
+git push
+Purpose: Push latest commits to GitHub
+What it does: Sends new commits to remote repository
+Meaning: Used after initial push setup
+
+git pull origin main
+Purpose: Fetch and merge changes from GitHub
+What it does: Downloads remote changes and merges into local project
+Meaning: Sync GitHub changes into local code
+
+git pull origin main --allow-unrelated-histories
+Purpose: Merge two unrelated Git repositories
+What it does: Combines local and remote histories even if different
+Meaning: Used when GitHub repo already has commits
+
+git status
+Purpose: Show current state of working directory
+What it does: Displays modified, staged, and untracked files
+Meaning: Helps you see what changed
+
+git restore <file>
+Purpose: Discard changes in a file
+What it does: Restores file to last committed state
+Meaning: Undo local changes
+
+.gitignore
+Purpose: Ignore files from Git tracking
+What it does: Prevents unnecessary files like target, .idea, logs from being committed
+Meaning: Keeps repository clean
+
+INTERVIEW SUMMARY
+
+Git is a version control system used to track code changes. It has three main states: working directory, staging area, and repository. We use git add to stage changes, git commit to save snapshots, and git push to upload code to remote repositories like GitHub. Git pull is used to sync remote changes into local code.
+
+
+
